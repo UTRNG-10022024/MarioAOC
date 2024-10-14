@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevsPark</name>
+    </assembly>
+    <members>
+        <member name="T:DevsPark.MVVM.ViewModels.FeaturedViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.FeaturedViewModel.SelectedItem">
+            <inheritdoc cref="F:DevsPark.MVVM.ViewModels.FeaturedViewModel.selectedItem"/>
+        </member>
+        <member name="F:DevsPark.MVVM.ViewModels.FeaturedViewModel.selectionChangedCommand">
+            <summary>The backing field for <see cref="P:DevsPark.MVVM.ViewModels.FeaturedViewModel.SelectionChangedCommand"/>.</summary>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.FeaturedViewModel.SelectionChangedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DevsPark.MVVM.ViewModels.FeaturedViewModel.SelectionChanged"/>.</summary>
+        </member>
+        <member name="T:DevsPark.MVVM.ViewModels.OffersViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.OffersViewModel.Offers">
+            <inheritdoc cref="F:DevsPark.MVVM.ViewModels.OffersViewModel.offers"/>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.OffersViewModel.CompanyName">
+            <inheritdoc cref="F:DevsPark.MVVM.ViewModels.OffersViewModel.companyName"/>
+        </member>
+        <member name="F:DevsPark.MVVM.ViewModels.OffersViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DevsPark.MVVM.ViewModels.OffersViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.OffersViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DevsPark.MVVM.ViewModels.OffersViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DevsPark.MVVM.ViewModels.PlacesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.PlacesViewModel.Places">
+            <inheritdoc cref="F:DevsPark.MVVM.ViewModels.PlacesViewModel.places"/>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.PlacesViewModel.CurrentPlace">
+            <inheritdoc cref="F:DevsPark.MVVM.ViewModels.PlacesViewModel.currentPlace"/>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.PlacesViewModel.IsFlyoutOpen">
+            <inheritdoc cref="F:DevsPark.MVVM.ViewModels.PlacesViewModel.isFlyoutOpen"/>
+        </member>
+        <member name="F:DevsPark.MVVM.ViewModels.PlacesViewModel.helpCommand">
+            <summary>The backing field for <see cref="P:DevsPark.MVVM.ViewModels.PlacesViewModel.HelpCommand"/>.</summary>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.PlacesViewModel.HelpCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DevsPark.MVVM.ViewModels.PlacesViewModel.Help"/>.</summary>
+        </member>
+        <member name="F:DevsPark.MVVM.ViewModels.PlacesViewModel.showOffersCommand">
+            <summary>The backing field for <see cref="P:DevsPark.MVVM.ViewModels.PlacesViewModel.ShowOffersCommand"/>.</summary>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.PlacesViewModel.ShowOffersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DevsPark.MVVM.ViewModels.PlacesViewModel.ShowOffers"/>.</summary>
+        </member>
+        <member name="F:DevsPark.MVVM.ViewModels.PlacesViewModel.searchCommand">
+            <summary>The backing field for <see cref="P:DevsPark.MVVM.ViewModels.PlacesViewModel.SearchCommand"/>.</summary>
+        </member>
+        <member name="P:DevsPark.MVVM.ViewModels.PlacesViewModel.SearchCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DevsPark.MVVM.ViewModels.PlacesViewModel.Search"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedItem">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedItem" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Offers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Offers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CompanyName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CompanyName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Places">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Places" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentPlace">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentPlace" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsFlyoutOpen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsFlyoutOpen" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedItem">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedItem" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Offers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Offers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CompanyName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CompanyName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Places">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Places" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentPlace">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentPlace" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsFlyoutOpen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsFlyoutOpen" generated properties.</summary>
+        </member>
+    </members>
+</doc>

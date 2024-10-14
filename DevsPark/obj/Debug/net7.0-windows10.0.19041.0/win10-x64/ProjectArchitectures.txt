@@ -1,0 +1,1 @@
+D:\Mario\Grupo1002\DevsPark\DevsPark.csproj;x64
